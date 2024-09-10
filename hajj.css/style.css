@@ -1,0 +1,245 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.container-fluid.bg-dark {
+    background-color: #343a40;
+}
+
+.logo img {
+    max-height: 100px;
+    border-radius: 50px;
+    border: 5px double #ffc107;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+/* Banner Section */
+.banner-background {
+    background-image: url('https://img.freepik.com/free-photo/abstract-brown-gradient-well-used-as-background-product-display_1258-55303.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #e9ecef;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.banner-background h1 {
+    font-size: 2.5rem;
+    color: #ffc107;
+    margin-bottom: 1rem;
+}
+
+.banner-background p {
+    font-size: 1.125rem;
+    color: #690303;
+    margin-bottom: 2rem;
+}
+
+.banner-background .img-fluid {
+    max-height: 300px;
+    width: auto;
+    border: 5px solid #ffc107;
+    border-radius: 50%;
+}
+
+/* Facilities and Offer Section */
+.container-fluid.bg-dark.py-5 {
+    position: relative;
+    background: url('https://t4.ftcdn.net/jpg/05/71/83/47/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 4rem 0;
+}
+
+.container-fluid.bg-dark.py-5::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.container-fluid.bg-dark.py-5 .container {
+    position: relative;
+    z-index: 2;
+}
+
+.facilities-section {
+    background: url('https://img.freepik.com/free-photo/abstract-brown-gradient-well-used-as-background-product-display_1258-55303.jpg') no-repeat center center;
+    background-size: cover;
+    color: #605e5e;
+    padding: 3rem;
+}
+
+.facilities-section h1 {
+    color: #690303;
+    margin-bottom: 1rem;
+}
+
+/* Facilities Section List Styles */
+.facilities-section ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.facilities-section ul li {
+    font-size: 1.125rem;
+    margin-bottom: 0.75rem;
+}
+
+.facilities-section ul li a {
+    color:#690303 ;
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.facilities-section ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Additional Image Styles */
+.additional-img {
+    height: 550px;
+    width: auto;
+    border: 5px solid #ffc107;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Pricing Section */
+.pricing-section {
+    padding: 20px; /* Adjust the padding as needed */
+    margin-bottom: 20px; /* Add bottom margin to separate sections */
+    background-color: #690303; /* Optional: Add a background color */
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add subtle shadow for depth */
+}
+/* Pricing Section Styles */
+.pricing-section {
+    padding: 20px; /* Add padding inside the section */
+    margin: 10px; /* Add margin around each section */
+    background-color: #ffc107; /* Background color matching your theme */
+    color: maroon; /* Text color for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center-align text */
+}
+
+.pricing-section h1 {
+    font-size: 2rem; /* Adjust font size for headings */
+    margin-bottom: 1rem; /* Space below the heading */
+}
+
+/* Additional Responsive Adjustments */
+@media (max-width: 768px) {
+    .pricing-section {
+        padding: 15px; /* Adjust padding for smaller screens */
+        margin: 5px; /* Adjust margin for smaller screens */
+    }
+
+    .pricing-section h1 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+}
+
+
+.pricing-section h1 {
+    margin-bottom: 1rem;
+}
+
+/* Packages Section */
+.packages-section {
+    padding: 4rem 0;
+    background-color: #ffc107;
+}
+
+.packages-section h1 {
+    color: #ffc107;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.packages-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.packages-section ul li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.packages-section ul li a {
+    color: #ffc107;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.packages-section ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.packages-section .col-md-4 {
+    background-color: #690303;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.packages-section .col-md-4:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Info Styles */
+.bg-dark .contact-info {
+    color: #ffc107;
+}
+
+.contact-info i {
+    font-size: 1.2rem;
+}
+
+.contact-info p {
+    margin: 0;
+    padding: 0 1rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+    .banner-background h1 {
+        font-size: 1.75rem;
+    }
+
+    .banner-background p {
+        font-size: 1rem;
+    }
+
+    .facilities-section h1 {
+        font-size: 1.5rem;
+    }
+
+    .pricing-section h1 {
+        font-size: 2rem;
+    }
+
+    .facilities-section ul li {
+        font-size: 1rem;
+    }
+}
